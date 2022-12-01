@@ -15,4 +15,11 @@ public class Judgement {
         }
         return count;
     }
+
+    public boolean hasPlace(List<Integer> computer, int indexNumber, int outsideNumber) {
+        if (computer.get(indexNumber) == outsideNumber) {
+            return true;
+        }
+        return false;
+    }
 }

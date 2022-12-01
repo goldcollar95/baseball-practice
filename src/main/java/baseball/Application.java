@@ -14,5 +14,9 @@ public class Application {
         Judgement judgement = new Judgement();
         int countCorrect = judgement.correctCount(Arrays.asList(1,2,3), Arrays.asList(1,2,3));
         System.out.println(countCorrect);
+
+        boolean hasPlace = judgement.hasPlace(Arrays.asList(1,2,3), 2 , 3);
+        System.out.println(hasPlace);
+
     }
 }
