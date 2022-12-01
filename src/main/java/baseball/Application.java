@@ -18,5 +18,7 @@ public class Application {
         boolean hasPlace = judgement.hasPlace(Arrays.asList(1,2,3), 2 , 3);
         System.out.println(hasPlace);
 
+
+
     }
 }
