@@ -7,7 +7,7 @@
 - [X] 게임 플레이어는(Player) 컴퓨터가(Computer) 생각하고 있는 서로 다른 3개의 숫자를 입력하고, 
    컴퓨터는 입력한 숫자에 대한 결과를 출력한다. Referee#Judgement()
 - [X] 컴퓨터가 선택한 3개의 숫자를 모두 맞히면 게임이 종료된다.Judgement#correctCount
-- [ ] 게임을 종료한 후 게임을 다시 시작하거나 완전히 종료할 수 있다. Judgement#continueOREnd()
+- [X] 게임을 종료한 후 게임을 다시 시작하거나 완전히 종료할 수 있다. Judgement#continueOREnd()
 - [X] 각 세자리의 수의 위치를 확인할 수 있다.  Judgement#hasPlace()
   - [X] 특정 자리에 특정 숫자가 있는지 알 수 있다. 
 - [ ] 입력값을 따로 저장해주어 게임이 시작될때 입력을 받을수 있다. Inputview#
