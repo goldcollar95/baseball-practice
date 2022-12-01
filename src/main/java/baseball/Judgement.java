@@ -22,4 +22,16 @@ public class Judgement {
         }
         return false;
     }
+
+    public void continueOREnd(int GameNumber) {
+        while (true) {
+            if (GameNumber == 2) {
+                break;
+            } else {
+                if (GameNumber == 1) {
+                    continue;
+                }
+            }
+        }
+    }
 }
