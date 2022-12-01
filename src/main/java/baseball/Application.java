@@ -1,5 +1,6 @@
 package baseball;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class Application {
@@ -8,6 +9,10 @@ public class Application {
 
         Computer computer = new Computer();
         List<Integer> RandomNumberList = computer.NumberGenerator();
-        System.out.println(RandomNumberList);
+//        System.out.println(RandomNumberList);
+
+        Judgement judgement = new Judgement();
+        int countCorrect = judgement.correctCount(Arrays.asList(1,2,3), Arrays.asList(1,2,3));
+        System.out.println(countCorrect);
     }
 }

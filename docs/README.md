@@ -3,10 +3,10 @@
 기본적으로 1부터 9까지 서로 다른 수로 이루어진 3자리의 수를 맞추는 게임이다.
 
 위 숫자 야구 게임에서 상대방의 역할을 컴퓨터가 한다. 
-- [ ] 컴퓨터는 1에서 9까지 서로 다른 임의의 수 3개를 선택한다. Computer#numberGenerator()
+- [X] 컴퓨터는 1에서 9까지 서로 다른 임의의 수 3개를 선택한다. Computer#numberGenerator()
 - [ ] 게임 플레이어는(Player) 컴퓨터가(Computer) 생각하고 있는 서로 다른 3개의 숫자를 입력하고, 
    컴퓨터는 입력한 숫자에 대한 결과를 출력한다. Referee#Judgement()
-- [ ] 이 같은 과정을 반복해 컴퓨터가 선택한 3개의 숫자를 모두 맞히면 게임이 종료된다.Judgement#correctCount
+- [X] 컴퓨터가 선택한 3개의 숫자를 모두 맞히면 게임이 종료된다.Judgement#correctCount
 - [ ] 게임을 종료한 후 게임을 다시 시작하거나 완전히 종료할 수 있다. Judgement#continueOREnd()
 - [ ] 각 세자리의 수의 위치를 확인할 수 있다. Judgement#hasPlace()
 - [ ] 입력값을 따로 저장해주어 게임이 시작될때 입력을 받을수 있다. Inputview#
