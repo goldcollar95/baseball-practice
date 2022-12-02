@@ -2,6 +2,13 @@ package baseball;
 
 public class Validator {
 
+    public void ValidatorAllList(String number){
+        ValidatorRangeNumber(number);
+        ValidatorNotEmpty(number);
+        ValidatorOnlyNumber(number);
+    }
+
+
     public void ValidatorRangeNumber(String number){
         for(int i = 0; i < number.length(); i++){
             if(number.length() != 3 ) {
@@ -21,7 +28,7 @@ public class Validator {
     public void ValidatorOnlyNumber(String number){
         for(int i = 0; i < number.length(); i++){
             if(number.length() == 0){
-                throw new IllegalArgumentException("0은 들어올 수 없습니다.")
+                throw new IllegalArgumentException("0은 들어올 수 없습니다.");
             }
         }
     }

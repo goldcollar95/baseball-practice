@@ -10,7 +10,7 @@
 - [X] 게임을 종료한 후 게임을 다시 시작하거나 완전히 종료할 수 있다. Judgement#continueOREnd()
 - [X] 각 세자리의 수의 위치를 확인할 수 있다.  Judgement#hasPlace()
   - [X] 특정 자리에 특정 숫자가 있는지 알 수 있다. 
-- [ ] 입력값을 따로 저장해주어 게임이 시작될때 입력을 받을수 있다. Inputview#
+- [X] 입력값을 따로 저장해주어 게임이 시작될때 입력을 받을수 있다. Inputview#
 
 
 사용자가 잘못된 값을 입력할 경우 IllegalArgumentException을 발생시킨 후 애플리케이션은 종료되어야 한다.
