@@ -1,5 +1,7 @@
 package baseball;
 
+import java.util.List;
+
 import static camp.nextstep.edu.missionutils.Console.readLine;
 public class Inputview {
 
@@ -7,7 +9,7 @@ public class Inputview {
         System.out.println("숫자 야구 게임을 시작합니다.");
     }
 
-    public void startInputMessage(){
+    public void startInputMessage(String gameNumber){
         System.out.println("숫자를 입력해주세요 : ");
     }
 
@@ -19,11 +21,11 @@ public class Inputview {
         System.out.println("게임을 새로 시작하려면 1, 종료하려면 2를 입력하세요.");
     }
 
-    public String numberInputGame(String number){
+    public String numberInputGame(){
         Validator validator = new Validator();
-
         String result = readLine();
-        validator.ValidatorAllList(number);
+        validator.ValidatorAllList(result);
+
         return result;
     }
 

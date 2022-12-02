@@ -23,7 +23,7 @@ public class Judgement {
         return false;
     }
 
-    public void continueOREnd(int GameNumber) {
+    public int continueOREnd(int GameNumber) {
         while (true) {
             if (GameNumber == 2) {
                 break;
@@ -33,5 +33,6 @@ public class Judgement {
                 }
             }
         }
+        return GameNumber;
     }
 }
