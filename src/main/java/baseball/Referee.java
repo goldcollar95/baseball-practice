@@ -13,7 +13,7 @@ public class Referee {
         // 스트라이크의 개수를 구해 뺀다.
         int strike = 0;
         for(int index = 0; index < player.size(); index++){
-            if(judgement.hasPlace(computer, player.get(index), index )){
+            if(judgement.hasPlace(computer, index, player.get(index) )){
                 strike++;
             }
         }
@@ -24,6 +24,6 @@ public class Referee {
             return "낫싱";
         }
 
-        return ball + " 볼 " + strike + " 스트라이크 ";
+        return ball + "볼 " + strike + "스트라이크";
     }
 }
